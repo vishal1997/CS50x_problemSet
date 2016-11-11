@@ -1,0 +1,78 @@
+0.  BMP= 4 
+
+
+1.  GIF supports animation
+
+
+2.  With lossless compression, every single bit of data that was originally in the file
+    remains after the file is uncompressed. All of the information is completely restored. 
+    On the other hand, in lossy compression when the file is uncompressed, only a part of 
+    the original information is still there.Lossy compression is generally used for video 
+    and sound, where a certain amount of information loss will not be detected by most users.
+    
+    
+3.  JPEG
+
+
+4.  First the system modifies the filename's first character in the directory to signal
+    that the file is deleted and can be recycled, second the system moves all the cluster 
+    to the free list of the hard disk cluster. The actual file data is never touched.
+    
+    
+5.  Overwrite the data.
+
+
+6.  It is a hearder file that provides a set of typedefs that specify exact-width integer 
+    types, with the minimum and maximum allowable values for each type. It is particularly 
+    useful for embedded programming 
+    
+    
+7.  uint8_t: A UINT8 is an 8-bit unsigned integer (0 to 255 in decimal). Because a UINT8 is 
+            unsigned, its first bit MSB is not reserved for signing.
+            
+    uint32_t: A UINT32 is a 32-bit unsigned integer (0 to 4294967295 in decimal). Because a 
+            UINT32 is unsigned, its first bit MSB is not reserved for signing.
+            
+    int32_t: An INT32 is a 32-bit signed integer (–2147483648 to 2147483647 in decimal). 
+            The first bit MSB is the signing bit. 
+    uint16_t: A UINT16 is a 16-bit unsigned integer (0 to 65535 in decimal). Because a 
+            UINT16 is unsigned, its first bitMSB is not reserved for signing.
+            
+            
+8.  BYTE: 1 Bytes (8 Bit)
+    DWORD: 4 Bytes (32 Bit)
+    LONG: 4 Bytes (32 Bit)
+    WORD: 2 Bytes (16 Bit)
+    
+    
+9.  The header field used to identify the BMP is 0x42 in hexadecimal, same as BM in ASCII. 
+
+
+10. bfSize: The file type must be BM.
+    biSize: The size, in bytes, of the bitmap file.
+    
+    
+11. If biHeight is negative, the bitmap is a top-down DIB and its origin is the 
+    upper-left corner.
+    
+    
+12. biBiteCount
+
+
+13. If the file can't be open in write mode then fopen will return NULL.
+
+
+14. This is the number of elements.
+
+
+15. padding=0.
+
+
+16. The function fseek sets the file position of the stream to the given padding.
+
+
+17. This is an integer constant which, used as the argument to the fseek function, 
+    specifies that the offset provided is relative to the current file position.
+    
+    
+18. Vishal Gupta
