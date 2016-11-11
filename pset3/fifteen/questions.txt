@@ -1,0 +1,9 @@
+questions.txt
+
+Computer Science 50
+Problem Set 3
+
+0. The framework allow the dimensions 3*3, 4*4, 5*5, 6*6 ,7*7, 8*8, 9*9
+1. 2D Array
+2. greet(void) function is called to greet a player
+3. The following function I needed to implement: void init(void), void draw(void), bool move(int tile), bool won(void);
